@@ -23,9 +23,12 @@ while True:
             print("Producto modificado.")
 
         case "3":
-
+            print(f"La lista de sus productos es:{productos}")
+            valor=input("Ingrese el producto a eliminar:")
+            productos.remove(valor)
+            print("Elemento eliminado")
         case "4":
-
+            print(f"La lista de sus productos es:{productos}")
         case "5":
             print("Saliendo del programa")
             break
